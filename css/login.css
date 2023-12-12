@@ -15,7 +15,7 @@
 }
 
 .header_login img {
-  width: 100px;
+  width: 250px;
 }
 
 .header_login h1 {
@@ -36,7 +36,7 @@
 }
 
 .login_buttom {
-  background-color: #ee665c;
+  background-color: #00b5cc;
   color: white;
   font-size: 1em;
   padding: 16px;
@@ -44,10 +44,23 @@
   max-width: 300px;
   width: 100%;
   cursor: pointer;
+  border: 3px solid #b2df28;
+  animation: ease;
+  transition: 0.6s;
+}
+
+.login_buttom:hover {
+  background-color: #b2df28;
+  border: 3px solid #00b5cc;
+  animation: ease;
+  transition: 0.6s;
 }
 
 .login_buttom:disabled {
   background-color: #eee;
   color: #aaa;
   cursor: auto;
+  border: 3px solid #aaa;
+  animation: ease;
+  transition: 0.6s;
 }
